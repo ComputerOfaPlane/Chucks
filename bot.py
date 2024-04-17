@@ -90,7 +90,7 @@ while not out:
             out = True
             continue
         else:
-            print('Crazyy...!')
+            print('Crazyy...!\n')
             runs += (move**2) if player=='bat' else (botchoice**2)
             continue
     elif diff==1:
@@ -139,7 +139,7 @@ while (not out) and balls>0 and runs<=target:
             out = True
             continue
         elif botchoice==0 and move==0:
-            print('Crazyy...!')
+            print('Crazyy...!\n')
             runs += 200
             continue
     if diff==0:
@@ -147,7 +147,7 @@ while (not out) and balls>0 and runs<=target:
             out = True
             continue
         else:
-            print('Crazyy...!')
+            print('Crazyy...!\n')
             runs += (move**2) if player=='bat' else (botchoice**2)
             continue
     elif diff==1:
