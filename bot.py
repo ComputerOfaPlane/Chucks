@@ -50,12 +50,12 @@ else:
     player = 'bat' if botchoice=='ball' else 'ball'
 
     botchoice = [True,False][randint(0,1)]
-    print(f'Bot chooses {'Simple' if botchoice else 'Crazy'} Mode')
+    print(f"Bot chooses {'Simple' if botchoice else 'Crazy'} Mode")
     simple = botchoice
 
 print('\n')
 
-print(f'MODE : {'Simple' if simple else 'Crazy'}\n')
+print(f"MODE : {'Simple' if simple else 'Crazy'}\n")
 
 print('Start of innings 1, All the best!\n')
 
